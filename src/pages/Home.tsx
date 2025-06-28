@@ -284,7 +284,7 @@ const Home = () => {
               className="w-full h-auto"
               poster="https://images.pexels.com/photos/1566837/pexels-photo-1566837.jpeg?auto=compress&cs=tinysrgb&w=800"
             >
-              <source src="https://pizzafour.fr/wp-content/uploads/2025/03/WhatsApp-Video-2025-03-15-at-12.16.47.mp4" type="video/mp4" />
+              <source src="/videos/ma-video.mp4" type="video/mp4" />
               Votre navigateur ne supporte pas la lecture de vidéos.
             </video>
           </div>
