@@ -51,13 +51,9 @@ const Navigation = () => {
           <div className="flex justify-between items-center h-20">
             {/* Logo */}
             <Link to="/" className="flex items-center gap-3">
-              <div className="bg-gradient-to-r from-primary to-secondary p-3 rounded-full">
-                <Pizza className="h-8 w-8 text-white" />
-              </div>
-              <div>
-                <h1 className="text-2xl font-bold text-gray-900">Pizz à Four</h1>
-                <p className="text-sm text-gray-600">Pizzeria Artisanale</p>
-              </div>
+            <a href="https://pizzafour.fr/">
+              <img src="https://www.four38.fr/wp-content/uploads/2025/04/PiizAFour.png" alt="Logo de Pizz à Four" width="150" />
+            </a>
             </Link>
 
             {/* Menu desktop */}
